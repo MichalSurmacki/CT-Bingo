@@ -1,0 +1,12 @@
+D:\Desktop\CT-Bingo\Application\bin\Debug\net5.0\Application.deps.json
+D:\Desktop\CT-Bingo\Application\bin\Debug\net5.0\Application.dll
+D:\Desktop\CT-Bingo\Application\bin\Debug\net5.0\ref\Application.dll
+D:\Desktop\CT-Bingo\Application\bin\Debug\net5.0\Application.pdb
+D:\Desktop\CT-Bingo\Application\obj\Debug\net5.0\Application.csproj.AssemblyReference.cache
+D:\Desktop\CT-Bingo\Application\obj\Debug\net5.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\CT-Bingo\Application\obj\Debug\net5.0\Application.AssemblyInfoInputs.cache
+D:\Desktop\CT-Bingo\Application\obj\Debug\net5.0\Application.AssemblyInfo.cs
+D:\Desktop\CT-Bingo\Application\obj\Debug\net5.0\Application.csproj.CoreCompileInputs.cache
+D:\Desktop\CT-Bingo\Application\obj\Debug\net5.0\Application.dll
+D:\Desktop\CT-Bingo\Application\obj\Debug\net5.0\ref\Application.dll
+D:\Desktop\CT-Bingo\Application\obj\Debug\net5.0\Application.pdb
