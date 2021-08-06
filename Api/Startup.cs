@@ -12,6 +12,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Api.Hubs;
+using Infrastructure;
+using Application;
 
 namespace Api
 {
@@ -28,6 +30,9 @@ namespace Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSignalR();
+            services.AddInfrastructure(Configuration);
+            services.AddApplication();
+            
             services.AddCors(options =>
             {
                 options.AddPolicy("ClientPermission", policy =>
