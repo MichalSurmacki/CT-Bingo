@@ -30,6 +30,7 @@ namespace Api.Hubs
 
         public async Task AddPlayerToGame(Guid playerId, Guid gameId)
         {
+            _gamesService.MovePlayerFromLobbyToGame(playerId, gameId);
             await Groups.AddToGroupAsync(Context.ConnectionId, "game_" + gameId.ToString());
         }
 

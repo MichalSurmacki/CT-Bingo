@@ -1403,7 +1403,6 @@
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "Domain": "1.0.0",
-          "Infrastructure": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.8"
         },
         "runtime": {
@@ -1423,6 +1422,7 @@
       },
       "Infrastructure/1.0.0": {
         "dependencies": {
+          "Application": "1.0.0",
           "Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.8"

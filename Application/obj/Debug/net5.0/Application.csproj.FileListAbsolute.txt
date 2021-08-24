@@ -13,5 +13,3 @@ D:\Desktop\CT-Bingo\Application\obj\Debug\net5.0\Application.pdb
 D:\Desktop\CT-Bingo\Application\bin\Debug\net5.0\Domain.dll
 D:\Desktop\CT-Bingo\Application\bin\Debug\net5.0\Domain.pdb
 D:\Desktop\CT-Bingo\Application\obj\Debug\net5.0\Application.csproj.CopyComplete
-D:\Desktop\CT-Bingo\Application\bin\Debug\net5.0\Infrastructure.dll
-D:\Desktop\CT-Bingo\Application\bin\Debug\net5.0\Infrastructure.pdb

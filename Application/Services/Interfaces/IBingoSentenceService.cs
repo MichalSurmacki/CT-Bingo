@@ -11,5 +11,6 @@ namespace Application.Services.Interfaces
         public BingoSentenceDto GetBingoSentenceById(int id);
         public List<BingoSentenceDto> GetAllBingoSentences();
         public List<BingoSentenceDto> GetAllBingoSentencesByCategory(string category);
+        public List<string> GetAllBingoSentencesCategories();
     }
 }

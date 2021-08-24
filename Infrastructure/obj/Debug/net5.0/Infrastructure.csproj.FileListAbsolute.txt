@@ -16,3 +16,5 @@ D:\Desktop\CT-Bingo\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
 D:\Desktop\CT-Bingo\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
 D:\Desktop\CT-Bingo\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
 D:\Desktop\CT-Bingo\Infrastructure\obj\Debug\net5.0\Infrastructure.genruntimeconfig.cache
+D:\Desktop\CT-Bingo\Infrastructure\bin\Debug\net5.0\Application.dll
+D:\Desktop\CT-Bingo\Infrastructure\bin\Debug\net5.0\Application.pdb

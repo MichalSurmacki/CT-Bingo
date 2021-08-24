@@ -18,13 +18,9 @@ namespace Api.Controllers
         }
 
         [HttpGet]
-        public ActionResult<List<BingoSentenceDto>> GetAllBingoSentences([FromQuery] string category)
+        public ActionResult<List<BingoSentenceDto>> GetAllBingoSentences()
         {
-            List<BingoSentenceDto> sentences;
-            if(string.IsNullOrWhiteSpace(category))
-                sentences = _bingoSentenceService.GetAllBingoSentences();
-            else
-                sentences = _bingoSentenceService.GetAllBingoSentencesByCategory(category);
+            var sentences = _bingoSentenceService.GetAllBingoSentences();
             if (sentences == null)
                     return NotFound();
             return Ok(sentences);

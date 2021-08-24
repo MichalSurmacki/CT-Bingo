@@ -45,6 +45,11 @@ namespace Application.Services
             return _mapper.Map<List<BingoSentenceDto>>(sentences);
         }
 
+        public List<string> GetAllBingoSentencesCategories()
+        {
+            return _bingoContext.BingoSentences.Select(b => b.Category).Distinct().ToList();
+        }
+
         public BingoSentenceDto GetBingoSentenceById(int id)
         {
             var sentence = _bingoContext.BingoSentences.Where(s => s.Id.Equals(id)).FirstOrDefault();

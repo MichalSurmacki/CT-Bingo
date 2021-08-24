@@ -106,9 +106,6 @@
             "projectReferences": {
               "D:\\Desktop\\CT-Bingo\\Domain\\Domain.csproj": {
                 "projectPath": "D:\\Desktop\\CT-Bingo\\Domain\\Domain.csproj"
-              },
-              "D:\\Desktop\\CT-Bingo\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\Desktop\\CT-Bingo\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -229,6 +226,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "D:\\Desktop\\CT-Bingo\\Application\\Application.csproj": {
+                "projectPath": "D:\\Desktop\\CT-Bingo\\Application\\Application.csproj"
+              },
               "D:\\Desktop\\CT-Bingo\\Domain\\Domain.csproj": {
                 "projectPath": "D:\\Desktop\\CT-Bingo\\Domain\\Domain.csproj"
               }
