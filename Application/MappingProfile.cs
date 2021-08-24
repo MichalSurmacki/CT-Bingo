@@ -10,6 +10,9 @@ namespace Application
         {
             CreateMap<BingoSentence, BingoSentenceDto>();
             CreateMap<BingoSentenceDto, BingoSentence>();
+
+            CreateMap<Game, GameReadDto>();
+            CreateMap<Player, PlayerReadDto>();
         }
     }
 }

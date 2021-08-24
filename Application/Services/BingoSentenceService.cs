@@ -1,21 +1,22 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using Application.Dtos;
+using Application.Interfaces;
 using Application.Services.Interfaces;
 using AutoMapper;
 using Domain.Models;
-using Infrastructure;
 
 namespace Application.Services
 {
     public class BingoSentenceService : IBingoSentenceService
     {
-        private readonly BingoContext _bingoContext;
+        private readonly IBingoContext _bingoContext;
         private readonly IMapper _mapper;
 
-        public BingoSentenceService(BingoContext bingoContext, IMapper mapper)
+        public BingoSentenceService(IBingoContext bingoContext, IMapper mapper)
         {
             _bingoContext = bingoContext;
             _mapper = mapper;
@@ -29,7 +30,7 @@ namespace Application.Services
             var bingoSentence = _mapper.Map<BingoSentence>(sentence);
             
             _bingoContext.BingoSentences.Add(bingoSentence);
-            await _bingoContext.SaveChangesAsync();
+            await _bingoContext.SaveChangesAsync(new CancellationToken()); //TODO sprawdzic cancellationToken
             return _mapper.Map<BingoSentenceDto>(bingoSentence);
         }
 

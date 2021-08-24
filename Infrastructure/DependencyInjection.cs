@@ -1,3 +1,4 @@
+using Application.Interfaces;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -17,6 +18,7 @@ namespace Infrastructure
             connBuilder.InitialCatalog = configuration["InitialCatalog"] ?? "ctBingoDb";
 
             services.AddDbContext<BingoContext>(opt => opt.UseSqlServer(connBuilder.ConnectionString));
+            services.AddScoped<IBingoContext>(provider => provider.GetService<BingoContext>());
 
             return services;
         }

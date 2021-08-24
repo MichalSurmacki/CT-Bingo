@@ -5,6 +5,5 @@ namespace Application.Dtos
         public int Id { get; set; }
         public string Category { get; set; }
         public string Sentence { get; set; }
-        public bool IsTagedByAdmin { get; set; }
     }
 }
